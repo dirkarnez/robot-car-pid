@@ -1,6 +1,10 @@
 - https://github.com/dirkarnez/number-animation
 - [**Top Down Vehicle Steering & Movement in ECS with Matter.js and Phaser 3 - YouTube**](https://www.youtube.com/watch?v=BiGps58X1h8)
 - [pid-with-simulation/main.cpp at main · dirkarnez/pid-with-simulation](https://github.com/dirkarnez/pid-with-simulation/blob/main/main.cpp)
+- `this.sprite2.on( "pointerdown", function (pointer, localX, localY) { var color = this.textures.getPixel(localX, localY, "sprite2_mask"); }, this );`
+- [Phaser - Examples - v3.85.0 - camera - Get World Point](https://phaser.io/examples/v3.85.0/camera/view/get-world-point)
+- [Phaser - Examples - v3.85.0 - camera - Pan To](https://phaser.io/examples/v3.85.0/camera/view/pan-to)
+
 
 ```
 Simulating sensor noise effectively is crucial for testing your PID controller in a line-following car. Here are several methods you can use to create realistic sensor noise:
